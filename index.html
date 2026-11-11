@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,110 +7,82 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Football Soccer Academy</title>
 <style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  font-family: Arial, sans-serif;
-  background: #08150e;
-  color: white;
-}
-header {
-  padding: 22px 8%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #07110b;
-}
-.logo { color: #39e75f; font-size: 23px; font-weight: bold; }
-nav a {
-  color: white; text-decoration: none;
-  margin-left: 20px;
-}
-.hero {
-  min-height: 520px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 70px 10%;
-  background: linear-gradient(90deg, #06140de8, #06140d55),
-  url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=1600');
-  background-size: cover;
-  background-position: center;
-}
-.hero h1 { font-size: 55px; max-width: 650px; }
-.hero h1 span { color: #39e75f; }
-.hero p { margin: 20px 0; font-size: 18px; }
-.btn {
-  display: inline-block; background: #39e75f;
-  color: #07110b; padding: 14px 25px;
-  text-decoration: none; font-weight: bold;
-  border-radius: 5px; width: fit-content;
-}
-section { padding: 65px 10%; text-align: center; }
-section h2 { font-size: 32px; margin-bottom: 20px; }
-.cards {
-  display: grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-  gap: 20px; margin-top: 30px;
-}
-.card {
-  background: #14271a; padding: 30px;
-  border-radius: 10px;
-}
-.card h3 { color: #39e75f; margin-bottom: 12px; }
-footer {
-  background: #050d08; text-align: center;
-  padding: 25px;
-}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#08150e;color:white}
+header{padding:22px 8%;display:flex;justify-content:space-between;align-items:center;background:#07110b;flex-wrap:wrap;gap:15px}
+.logo{color:#39e75f;font-size:22px;font-weight:bold}
+nav a{color:white;text-decoration:none;margin:8px}
+.hero{min-height:520px;display:flex;flex-direction:column;justify-content:center;padding:70px 10%;background:linear-gradient(90deg,#06140de8,#06140d55),url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=1600');background-size:cover;background-position:center}
+.hero h1{font-size:50px;max-width:650px}
+.hero h1 span{color:#39e75f}
+.hero p{margin:15px 0;font-size:19px;line-height:1.8}
+.btn{display:inline-block;background:#39e75f;color:#07110b;padding:14px 25px;text-decoration:none;font-weight:bold;border-radius:5px;width:fit-content}
+section{padding:65px 10%;text-align:center}
+section h2{font-size:32px;margin-bottom:15px;color:#39e75f}
+section p{line-height:1.9}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-top:30px}
+.card{background:#14271a;padding:30px;border-radius:10px}
+.card h3{color:#39e75f;margin-bottom:12px}
+footer{background:#050d08;text-align:center;padding:25px;line-height:2}
 </style>
 </head>
 <body>
 
 <header>
-  <div class="logo">⚽ FOOTBALL ACADEMY</div>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#programs">Programs</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<div class="logo">⚽ FOOTBALL ACADEMY</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#programs">Programs</a>
+<a href="#contact">Contact</a>
+</nav>
 </header>
 
 <div class="hero" id="home">
-  <h1>BUILD YOUR <span>FOOTBALL</span> DREAM</h1>
-  <p>Train Hard. Play Smart. Become a Champion.</p>
-  <a href="#programs" class="btn">Explore Academy</a>
+<h1>BUILD YOUR <span>FOOTBALL</span> DREAM</h1>
+<p>Train Hard. Play Smart. Become a Champion.<br>
+പരിശീലിക്കൂ. മികവ് നേടൂ. ചാമ്പ്യനാകൂ!</p>
+<a href="#programs" class="btn">Explore Academy | അക്കാദമി</a>
 </div>
 
 <section id="about">
-  <h2>About Our Academy</h2>
-  <p>We develop young football talents through training, discipline and teamwork.</p>
+<h2>About Our Academy | ഞങ്ങളുടെ അക്കാദമി</h2>
+<p>We develop young football talents through training, discipline and teamwork.</p>
+<p>പരിശീലനം, അച്ചടക്കം, കൂട്ടായ്മ എന്നിവയിലൂടെ പുതിയ ഫുട്ബോൾ പ്രതിഭകളെ വളർത്തിയെടുക്കുന്നു.</p>
 </section>
 
 <section id="programs">
-  <h2>Our Training Programs</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>⚽ Beginners</h3>
-      <p>Learn the fundamentals of football.</p>
-    </div>
-    <div class="card">
-      <h3>🏃 Advanced Training</h3>
-      <p>Improve your skills and performance.</p>
-    </div>
-    <div class="card">
-      <h3>🏆 Match Training</h3>
-      <p>Develop teamwork and match experience.</p>
-    </div>
-  </div>
+<h2>Our Training Programs | പരിശീലന പരിപാടികൾ</h2>
+<div class="cards">
+<div class="card">
+<h3>⚽ Beginners | തുടക്കക്കാർ</h3>
+<p>Learn the fundamentals of football.</p>
+<p>ഫുട്ബോളിന്റെ അടിസ്ഥാന കാര്യങ്ങൾ പഠിക്കാം.</p>
+</div>
+<div class="card">
+<h3>🏃 Advanced Training | ഉയർന്ന പരിശീലനം</h3>
+<p>Improve your skills and performance.</p>
+<p>നിങ്ങളുടെ കഴിവുകളും പ്രകടനവും മെച്ചപ്പെടുത്താം.</p>
+</div>
+<div class="card">
+<h3>🏆 Match Training | മത്സര പരിശീലനം</h3>
+<p>Develop teamwork and match experience.</p>
+<p>ടീം വർക്കും മത്സര പരിചയവും നേടാം.</p>
+</div>
+</div>
 </section>
 
 <section id="contact">
-  <h2>Join Our Academy</h2>
-  <p>Start your football journey with us!</p>
+<h2>Join Our Academy | ഞങ്ങളോടൊപ്പം ചേരൂ</h2>
+<p>Start your football journey with us!</p>
+<p>നിങ്ങളുടെ ഫുട്ബോൾ യാത്ര ഞങ്ങളോടൊപ്പം ആരംഭിക്കൂ!</p>
 </section>
 
 <footer>
-  © 2026 Football Soccer Academy. All Rights Reserved.
+© 2026 Football Soccer Academy<br>
+ഫുട്ബോൾ സ്വപ്നങ്ങൾക്ക് ഒരു പുതിയ തുടക്കം!
 </footer>
 
 </body>
 </html>
+
